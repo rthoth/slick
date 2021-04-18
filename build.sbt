@@ -1,10 +1,13 @@
+val scala2_13 = "2.13.5"
+val scala2_12 = "2.12.13"
+
 ThisBuild / organization := "com.github.rthoth"
-ThisBuild / scalaVersion := "2.13.5"
+ThisBuild / scalaVersion := scala2_13
 ThisBuild / version := "0.0.1"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "slick-reactivestreams"
+    name := "slick-rthoth"
   )
   .settings(
     libraryDependencies ++= Seq(
